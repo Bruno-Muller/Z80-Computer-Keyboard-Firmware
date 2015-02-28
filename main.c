@@ -71,7 +71,7 @@ void interrupt interrupt_handler() {
 unsigned char get_ASCII(unsigned char data) {
     if (data <= LOOKUP_TABLE_SIZE) {
         if (alt == TRUE)
-            return altered[data];
+            return alternate[data];
         else if (caps_lock == TRUE)
             return shifted[data];
         else if (shift == TRUE)

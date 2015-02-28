@@ -1,5 +1,5 @@
 __stringtab: STRCODE, 256 0 1
-_altered: STRCODE, 257 0 132
+_alternate: STRCODE, 257 0 132
 _main: CODE, 653 0 150
 _shifted: STRCODE, 389 0 132
 _get_ASCII: CODE, 803 0 75
